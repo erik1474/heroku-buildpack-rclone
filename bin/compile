@@ -11,6 +11,9 @@ DOWNLOAD_URL="https://downloads.rclone.org/rclone-v1.39-linux-amd64.zip"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
+[ ! -d $BUILD_DIR ] && mkdir $BUILD_DIR
+echo "BUILD_DIR = $BUILD_DIR"
+
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
 cd $VENDOR_DIR
