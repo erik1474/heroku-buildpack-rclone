@@ -11,7 +11,7 @@ indent() {
 echo "-----> Install rclone"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://downloads.rclone.org/v1.41/rclone-v1.41-linux-amd64.zip" 
+DOWNLOAD_URL="https://downloads.rclone.org/rclone-current-linux-amd64.zip" 
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
